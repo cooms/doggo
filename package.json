@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-react-webpack",
+  "name": "doggo",
   "version": "0.1.0",
   "description": "A webpack React starter",
   "main": "server/server.js",
@@ -36,5 +36,17 @@
   "dependencies": {
     "body-parser": "^1.15.1",
     "express": "^4.13.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001b[2~https://github.com/cooms/doggo.git"
+  },
+  "keywords": [
+    "doggo",
+    "react",
+    "webpack"
+  ]
 }
