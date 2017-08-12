@@ -1,0 +1,26 @@
+/* main style sheet*/
+
+body {
+
+}
+
+header {
+  height: 80px;
+  background-color: tomato;
+}
+
+.headerLogo {
+  max-width: 10%;
+  height: auto;
+  display: block;
+  float: left;
+}
+
+header ul {
+  float: right;
+  width: 30%;
+}
+
+.headerMenu li {
+  font-size: 1.3em;
+}
