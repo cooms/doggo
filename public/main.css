@@ -1,26 +1,112 @@
 /* main style sheet*/
 
 body {
-
+  font-family: raleway;
+  color: white;
 }
 
 header {
-  height: 80px;
+  height: 60px;
   background-color: tomato;
 }
 
+#right-corner {
+  float: right;
+  position: absolute;
+}
+
+polygon {
+z-index: 0;
+}
+
 .headerLogo {
-  max-width: 10%;
-  height: auto;
+  max-height: 60px;
+  padding: 5px;
   display: block;
   float: left;
+}
+header p {
+  float: left;
+  font-size: 1.7em;
 }
 
 header ul {
   float: right;
-  width: 30%;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .headerMenu li {
+  font-size: 1.3em;
+}
+
+/*Slider CSS*/
+
+.carousel-indicators li {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin: 0 5px 0 5px;
+}
+
+.carousel-indicators .active {
+  color: tomato;
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin: 0 5px 0 5px;
+}
+
+.sliderTextWrapper {
+  position: absolute;
+  z-index: 2;
+
+  margin-left: 15%;
+  margin-top: 10%;
+
+  width: 30%;
+}
+
+.sliderTextWrapper h2 {
+  font-size: 3em;
+}
+
+.sliderTextWrapper p {
+  font-size: 1.5em;
+}
+
+.buttonMain {
+  background-color: tomato;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 5px;
+  padding: 7px 10px 7px 10px;
+  transition: .3s;
+}
+
+.buttonMain:hover {
+  text-decoration: none;
+  color: #ff2600;
+  transition: .3s;
+}
+
+.slide2 {
+  text-shadow: 1px 1px 2px #000;
+  width: 37%;
+}
+
+footer {
+  height: 120px;
+  background-color: tomato;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footerMenu li {
   font-size: 1.3em;
 }
