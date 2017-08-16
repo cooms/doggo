@@ -4,18 +4,14 @@ export default React.createClass({
   render() {
     return (
       <header className="header">
-
-        <img className="headerLogo" src='/images/doggo_logo.png' />
-        <p> Doggo </p>
+        <img className="headerLogo" src="/images/logo_concept_2.png"/>
         <ul className="headerMenu">
-          <li> First </li>
-          <li> Second </li>
-          <li> Third </li>
-          <li> Fourth </li>
+          <li><a className="headerProfileLink" href=""><img className="profileIcon" src="/images/dog_face.png"/></a></li>
+          <li><a className="headerLink animatedUnderline" href=""> First </a> </li>
+          <li><a className="headerLink animatedUnderline" href=""> Second </a> </li>
+          <li><a className="headerLink animatedUnderline" href=""> Third </a> </li>
+          <li><a className="headerLink animatedUnderline" href=""> Fourth </a> </li>
         </ul>
-        <svg id="right-corner">
-          <polygon points="50,0 300,0 250,60 0,60" style={{fill:'#ff2600'}}/>
-        </svg>
       </header>
     )
   }
