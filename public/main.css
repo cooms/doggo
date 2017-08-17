@@ -92,11 +92,11 @@ header ul {
   width: 30%;
 }
 
-.sliderTextWrapper h2 {
+.sliderTextWrapper h2, .sliderTextWrapperTop h2 {
   font-size: 3em;
 }
 
-.sliderTextWrapper p {
+.sliderTextWrapper p, .sliderTextWrapperTop p {
   font-size: 1.5em;
 }
 
@@ -118,6 +118,17 @@ header ul {
 .slide2 {
   text-shadow: 1px 1px 2px #000;
   width: 37%;
+}
+
+.sliderTextWrapperTop {
+  position: absolute;
+  z-index: 2;
+
+  margin: 8% 35%;
+
+  width: 30%;
+  color: tomato;
+  text-align: center;
 }
 
 footer {
