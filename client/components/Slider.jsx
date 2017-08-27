@@ -17,7 +17,7 @@ export default React.createClass({
                 <hr/>
                 <p> Hey there and welcome my dude, this is doggo for your doggo.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <br/>
-                <a href="signUp" className="buttonMain"> Sign up here! </a>
+                <a href="signUp" className="buttonMain1"> Sign up here! </a>
               </article>
               <img src="/images/slider_image_1.jpg" alt="Labrador HD Picture"/>
             </div>
@@ -34,7 +34,7 @@ export default React.createClass({
               <h2> How do I sign up? </h2>
               <p> Signing up is super easy, you'll have your dog's own profile up and running in no time! </p>
               <br/>
-              <a href="signUp" className="buttonMain"> Sign up here! </a>
+              <a href="signUp" className="buttonMain2"> Sign up here! </a>
               </article>
             <img src="/images/slider_image_3.jpg" alt="Dalmation Puppies HD"/>
             </div>
