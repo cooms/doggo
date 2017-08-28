@@ -66,6 +66,10 @@ header ul {
 
 /*Slider CSS*/
 
+.carousel-indicators {
+  margin-bottom: 35px;
+}
+
 .carousel-indicators li {
   width: 30px;
   height: 30px;
@@ -152,7 +156,7 @@ header ul {
 }
 
 footer {
-  height: 120px;
+  height: 200px;
   background-color: tomato;
 }
 
@@ -160,7 +164,7 @@ footer {
   position: absolute;
   width: 100%;
   height: auto;
-  margin-top: -2%;
+  margin-top: -1.5%;
 }
 
 footer ul {
