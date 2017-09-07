@@ -1,6 +1,7 @@
 import React from 'react'
-import {render} from 'react-dom'
-import {HashRouter, Router, Route, hashHistory} from 'react-router-dom'
+import ReactDOM from 'react-dom'
+import {hashHistory} from 'react-router'
+import {HashRouter, Router, Route} from 'react-router-dom'
 
 import App from './components/App'
 import About from './components/About'
@@ -8,10 +9,9 @@ import About from './components/About'
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     (
-      <Router history={hashHistory}>
-        <Route path='/' component={App}/>
-        <Route path='./About' component={About}/>
-      </Router>
+      <HashRouter>
+        <App/>
+      </HashRouter>
     ),
     document.getElementById('app')
   )
