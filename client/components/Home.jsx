@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from './Header'
+import Slider from './Slider'
 import Footer from './Footer'
 
 export default React.createClass({
@@ -8,7 +9,7 @@ export default React.createClass({
     return (
       <div className="mainWrapper">
         <Header/>
-        <h1> About Page </h1>
+        <Slider/>
         <Footer/>
       </div>
     )

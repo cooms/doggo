@@ -1,8 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import About from './About'
-
 export default React.createClass({
   render() {
     return (
@@ -11,7 +9,7 @@ export default React.createClass({
         <ul className="headerMenu">
           <li><a className="headerProfileLink" href=""><img className="profileIcon" src="/images/dog_face.png"/></a></li>
           <li><a className="headerLink animatedUnderline" href=""> First </a> </li>
-          <li><Link to="/About"> About </Link> </li>
+          <li><Link to="/about"> About </Link> </li>
           <li><a className="headerLink animatedUnderline" href=""> Third </a> </li>
           <li><a className="headerLink animatedUnderline" href=""> Fourth </a> </li>
         </ul>
