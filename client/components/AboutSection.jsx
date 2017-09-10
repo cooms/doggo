@@ -5,9 +5,10 @@ export default React.createClass({
     return(
       <section className="aboutSectionWrapper">
         <div className="sectiontextWrapper">
+        <h1> How does Doggo work? </h1>
+        <p> Simply sign your dog up to Doggo to create a short and sweet profile of them! Once your dog is registered, you can have a look around for other dogs of the same breed, age, personality and area.<br/><br/>From there, your dog can make all the friends they want, and you can organize playdates whenever it suits you or your dog!</p>
         </div>
         <div className="aboutSectionExampleWrapper">
-          <h1> Meet doggos: </h1>
           <div className="profileExample">
             <img src="/images/bella.jpg" className="profilePicExample"/>
             <article className="infoRow">
@@ -44,7 +45,7 @@ export default React.createClass({
                 <h4> 1 year </h4>
               </span>
               <hr/>
-              <p> Neo had a few issues feeding when he was a puppy; he used to be the runt of the litter, but is now much bigger than anyone would've thought. He loves hanging out with his twin sister. </p>
+              <p> Neo had a few problems feeding when he was a puppy; he used to be the runt of the litter, but is now much bigger than anyone would've thought. He loves hanging out with his twin sister. </p>
             </article>
           </div>
         </div>
