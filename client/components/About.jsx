@@ -8,7 +8,6 @@ export default React.createClass({
     return (
       <div className="mainWrapper">
         <Header/>
-        <h1> About Page </h1>
         <Footer/>
       </div>
     )

@@ -64,6 +64,8 @@ header ul {
   transition: .3s;
 }
 
+
+
 /*Slider CSS*/
 
 .carousel-indicators {
@@ -154,6 +156,82 @@ header ul {
   color: tomato;
   text-align: center;
 }
+
+/*About Section --------------------------------------------------------------*/
+
+.aboutSectionWrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sectiontextWrapper {
+  margin: 15% 0% 15% 5%;
+  width: 35%;
+  height: 300px;
+  background-color: tomato;
+}
+
+.aboutSectionExampleWrapper {
+  margin: 5% 5% 10% 0%;
+  width: 35%;
+  height: auto;
+  background-color: tomato;
+}
+
+.aboutSectionExampleWrapper h1 {
+  text-align: center;
+}
+
+/*Profile Row --------------------------------*/
+
+.profileExample {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ff7d66;
+}
+
+.profileDarker {
+  background-color: tomato;
+}
+
+.profileExample hr {
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+}
+
+.profilePicExample {
+  width: 160px;
+  height: 160px;
+  border-radius: 170px;
+}
+
+.infoRow {
+  margin-left: 10px;
+  padding: 5px;
+  width: 70%;
+}
+
+.infoRow h2 {
+  margin: 0px 0px 0px -1px;
+}
+
+.initialInfoExmaple {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.initialInfoExmaple h4 {
+  width: 35%;
+  position: relative;
+}
+
+
+
+
+/*Footer CSS -----------------------------------------------------------------*/
 
 footer {
   height: 200px;
