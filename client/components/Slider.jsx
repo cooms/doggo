@@ -34,7 +34,7 @@ export default React.createClass({
               <h2> How do I sign up? </h2>
               <p> Signing up is super easy, you'll have your dog's own profile up and running in no time! </p>
               <br/>
-              <a href="signUp" className="buttonMain2"> Sign up here! </a>
+              <a href="signUp" className="buttonMain1"> Sign up here! </a>
               </article>
             <img src="/images/slider_image_3.jpg" alt="Dalmation Puppies HD"/>
             </div>

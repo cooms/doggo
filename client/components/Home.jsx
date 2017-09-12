@@ -1,8 +1,9 @@
 import React from 'react'
 
 import Header from './Header'
-import AboutSection from './AboutSection'
 import Slider from './Slider'
+import AboutSection from './AboutSection'
+import PlaydateSection from './PlaydateSection'
 import Footer from './Footer'
 
 export default React.createClass({
@@ -12,6 +13,7 @@ export default React.createClass({
         <Header/>
         <Slider/>
         <AboutSection/>
+        <PlaydateSection/>
         <Footer/>
       </div>
     )

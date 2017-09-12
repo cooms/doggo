@@ -2,7 +2,7 @@ import React from 'react'
 
 export default React.createClass({
   render(){
-    return(
+    return (
       <section className="aboutSectionWrapper">
         <div className="sectiontextWrapper">
         <h1> How does Doggo work? </h1>

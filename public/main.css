@@ -162,9 +162,9 @@ header ul {
 }
 
 .sectiontextWrapper {
-  margin: 5% 0% 10% 5%;
+  margin: 14% 0% 10% 5%;
   width: 35%;
-  height: 300px;
+  height: auto;
 }
 
 .sectiontextWrapper h1 {
@@ -233,8 +233,39 @@ header ul {
   position: relative;
 }
 
+/*About Section --------------------------------------------------------------*/
 
+.playdateSection {
+  background-color: tomato;
+  text-align: center;
+}
 
+.playdateSection h1 {
+  font-size: 3em;
+  padding: 30px 0px 30px 0px;
+}
+
+.playdateExample {
+  width: 75%;
+  height: 500px;
+  margin: 0px auto;
+}
+
+.playdateExample p {
+  margin: 0px auto;
+  text-align: center;
+  font-size: 1.2em;
+  width: 50%;
+}
+
+.playdateImageWrapper {
+
+}
+
+.playdateImage {
+  width: 20%;
+  border-radius: 200px;
+}
 
 /*Footer CSS -----------------------------------------------------------------*/
 
