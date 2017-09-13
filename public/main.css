@@ -259,13 +259,32 @@ header ul {
 }
 
 .playdateImageWrapper {
-
+  margin-top: 75px;
 }
 
 .playdateImage {
   width: 20%;
   border-radius: 200px;
 }
+
+.arrowImg {
+  width: 40%;
+  height: auto;
+  margin-top: -200px;
+  padding: 0px 50px 0px 50px;
+  transform: rotate(5deg);
+}
+
+.reversedVert {
+  transform: rotate(185deg);
+}
+
+.bottom {
+  width: 30%;
+  position: absolute;
+  margin-top: 10%;
+}
+
 
 /*Footer CSS -----------------------------------------------------------------*/
 
