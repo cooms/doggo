@@ -8,6 +8,12 @@ export default React.createClass({
     return (
       <div className="mainWrapper">
         <Header/>
+        <section className="aboutWrapper">
+          <h1> What is Doggo all about? </h1>
+          <div className="aboutWrapperContent">
+            <p> filler filler filler filler filler</p>
+          </div>
+        </section>
         <Footer/>
       </div>
     )

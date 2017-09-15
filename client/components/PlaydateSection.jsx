@@ -11,7 +11,6 @@ export default React.createClass({
             <img src="/images/bella.jpg" className="playdateImage left"/>
             <img src="/images/arrow.fw.png" className="arrowImg reversedVert bottom"/>
             <img src="/images/arrow.fw.png" className="arrowImg"/>
-
             <img src="/images/lily.jpg" className="playdateImage right"/>
           </div>
         </div>
