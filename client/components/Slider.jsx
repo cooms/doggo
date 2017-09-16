@@ -2,6 +2,16 @@ import React from 'react'
 import $ from 'jquery'
 
 export default React.createClass({
+
+  componentDidMount() {
+    $(document).ready(function(){
+      $(".sliderTextWrapper").css("opacity", "0").animate({
+        "margin-left": "200",
+        "opacity": "1"
+      }, 2000)
+    })
+  },
+
   render() {
     return (
       <section className="sliderWrapper">
