@@ -4,11 +4,12 @@ import $ from 'jquery'
 export default React.createClass({
 
   componentDidMount() {
+    /* Header drifts and fades in */
     $(document).ready(function(){
       $(".sliderTextWrapper").css("opacity", "0").animate({
-        "margin-left": "200",
+        "margin-left": "250",
         "opacity": "1"
-      }, 2000)
+      }, 1500)
     })
   },
 
@@ -30,7 +31,7 @@ export default React.createClass({
                 <br/>
                 <a href="signUp" className="buttonMain1"> Sign up here! </a>
               </article>
-              <img src="/images/slider_image_1.jpg" alt="Labrador HD Picture"/>
+              <img className="sliderImage1" src="/images/slider_image_1.jpg" alt="Labrador HD Picture"/>
             </div>
             <div className="item">
               <article className="sliderTextWrapper slide2">

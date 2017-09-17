@@ -1,6 +1,17 @@
 import React from 'react'
+import $ from 'jquery'
 
 export default React.createClass({
+
+  componentDidMount() {
+      $(".sectiontextWrapper, .aboutSectionExampleWrapper").css({"opacity": "0"})
+      $(window).scroll(function(){
+        $(".sectiontextWrapper, .aboutSectionExampleWrapper").animate({
+          "opacity": "1"
+        }, 2000)
+      })
+  },
+
   render(){
     return (
       <section className="aboutSectionWrapper">
