@@ -6,9 +6,14 @@ export default React.createClass({
   componentDidMount() {
       $(".sectiontextWrapper, .aboutSectionExampleWrapper").css({"opacity": "0"})
       $(window).scroll(function(){
-        $(".sectiontextWrapper, .aboutSectionExampleWrapper").animate({
-          "opacity": "1"
-        }, 2000)
+        $(".sectiontextWrapper").animate({
+          "opacity": "1",
+          "margin-left": "5%"
+        }, 1500)
+        $(".aboutSectionExampleWrapper").animate({
+          "opacity": "1",
+          "margin-right": "5%"
+        }, 1500)
       })
   },
 

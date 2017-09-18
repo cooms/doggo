@@ -160,7 +160,7 @@ header ul {
 }
 
 .sectiontextWrapper {
-  margin: 14% 0% 10% 5%;
+  margin: 14% 0% 10% 0%;
   width: 35%;
   height: auto;
 }
@@ -177,7 +177,7 @@ header ul {
 }
 
 .aboutSectionExampleWrapper {
-  margin: 5% 5% 10% 0%;
+  margin: 5% 0% 10% 0%;
   width: 35%;
   height: auto;
   background-color: tomato;
