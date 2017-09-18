@@ -1,7 +1,21 @@
 import React from 'react'
+import $ from 'jquery'
 
 export default React.createClass({
-  render(){
+  componentDidMount() {
+    $(".playdateImage").css({
+      "transform": "rotate(180deg)",
+      "opacity": "0"
+    })
+    $(".left").animate({
+      "opacity": "1"
+    }, 2000).css({"animation-name": "bounce3", "animation-duration": "2s"})
+    $(".right").animate({
+      "opacity": "1"
+    }, 2000)
+  },
+
+  render() {
     return (
       <section className="playdateSection">
         <h1> Organize Playdates! </h1>
