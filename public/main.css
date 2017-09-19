@@ -231,7 +231,7 @@ header ul {
   position: relative;
 }
 
-/*About Section --------------------------------------------------------------*/
+/*Playdate Section -----------------------------------------------------------*/
 
 .playdateSection {
   background-color: tomato;
@@ -263,6 +263,12 @@ header ul {
 .playdateImage {
   width: 20%;
   border-radius: 200px;
+}
+
+.floatLeft {
+}
+
+.floatRight {
 }
 
 .arrowImg {
@@ -304,10 +310,6 @@ header ul {
 .aboutPageHeader {
 
 }
-
-
-
-
 
 /*Footer CSS -----------------------------------------------------------------*/
 
@@ -359,25 +361,24 @@ footer ul {
 
 
 
-@keyframes bounce3 {
+@keyframes rollInLeft {
   0% {
-    margin-left: 0px;
-    transform: rotate(0deg);
-  }
-  25% {
-    margin-left: 200px;
-    transform: rotate(360deg);
-  }
-  50% {
-    margin-left: 0px;
-    transform: rotate(0deg);
-  }
-  75% {
-    margin-left: -200px;
-    transform: rotate(-360deg);
+    margin-left: -20%;
+    transform: rotate(270deg);
   }
   100% {
-    margin-left: 0px;
+    margin-left: 0%;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rollInRight {
+  0% {
+    margin-left: 20%;
+    transform: rotate(90deg);
+  }
+  100% {
+    margin-left: 0%;
     transform: rotate(0deg);
   }
 }
