@@ -305,10 +305,58 @@ header ul {
 
 }
 
+/*SignUp Page ----------------------------------------------------------------*/
 
+.signUpWrapper {
+  background-color: tomato;
+  width: 40%;
+  margin: 200px auto;
+  height: auto;
+  padding: 15px;
+}
 
+.signUpWrapper h2 {
+  text-align: center;
+  margin: 0px auto 30px;
+}
 
+.signUpForm {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
 
+.signUpWrapper label {
+  font-size: 1.3em;
+}
+
+.formInput {
+  width: 100%;
+  padding: 3px;
+  color: black;
+  font-size: 1.3em;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: none;
+}
+
+.formSubmit {
+  color: tomato;
+  background-color: #fff;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.3em;
+
+  transition: .3s;
+}
+
+.formSubmit:hover {
+  text-shadow: 0px 0px 0px red;
+  box-shadow: 0px 0px 15px red;
+  transition: .3s;
+}
 /*Footer CSS -----------------------------------------------------------------*/
 
 footer {

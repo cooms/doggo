@@ -6,6 +6,7 @@ import App from './App'
 import Home from './Home'
 import About from './About'
 import Footer from './Footer'
+import SignUp from './SignUp'
 
 export default React.createClass({
   render() {
@@ -14,9 +15,9 @@ export default React.createClass({
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About}/>
+          <Route path='/signup' component={SignUp}/>
         </Switch>
       </main>
-
     )
   }
 })
