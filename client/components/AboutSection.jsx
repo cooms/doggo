@@ -32,7 +32,7 @@ export default React.createClass({
                 <h4> 8 years </h4>
               </span>
               <hr/>
-              <p> Lily is a friendly older lab who is very protective of her owner. She's not too fond of little fluffy dogs, but gets along great with other labs reagrdless of age. </p>
+              <p> Lily is a friendly older lab who is very protective of her owner. She's not too fond of little fluffy dogs, but gets along great with other labs regardless of age. </p>
             </article>
           </div>
           <div className="profileExample">

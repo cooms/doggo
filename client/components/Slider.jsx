@@ -24,9 +24,9 @@ export default React.createClass({
           <div className="carousel-inner">
             <div className="item active">
               <article className="sliderTextWrapper slide1">
-                <h2> HELLO FREN </h2>
+                <h2> Welcome! </h2>
                 <hr/>
-                <p> Hey there and welcome my dude, this is doggo for your doggo.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p> Hi there and welcome to Doggo!<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <br/>
                 <a href="signUp" className="buttonMain1"> Sign up here! </a>
               </article>
@@ -34,9 +34,9 @@ export default React.createClass({
             </div>
             <div className="item">
               <article className="sliderTextWrapper slide2">
-                <h2> HELLO FREN </h2>
+                <h2> Why Doggo? </h2>
                 <hr/>
-                <p> Hey there and welcome my dude, this is doggo for your doggo.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p> Do you ever feel like your dog needs their own Facebook profile? Doggo is made just for that reason!<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               </article>
               <img src="/images/slider_image_2.jpg" alt="Fluffo HD Picture"/>
             </div>
